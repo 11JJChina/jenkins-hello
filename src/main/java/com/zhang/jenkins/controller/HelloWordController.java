@@ -10,4 +10,10 @@ public class HelloWordController {
     public String say(){
         return "Welcome to Jenkins";
     }
+
+    @GetMapping("/sayGoodbye")
+    public String goodBye(){
+        return "GoodBye Word!!!!!";
+    }
+
 }
