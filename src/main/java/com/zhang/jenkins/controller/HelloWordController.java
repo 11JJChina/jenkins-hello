@@ -13,7 +13,7 @@ public class HelloWordController {
 
     @GetMapping("/sayGoodbye")
     public String goodBye(){
-        return "GoodBye Word!!!!!";
+        return "GoodBye Word!!!!!,开始测试hook";
     }
 
 }
